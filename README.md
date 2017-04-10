@@ -6,12 +6,11 @@ UICollectionView waterflow layout, written with swift
 
 ![Alt text](https://github.com/CoderSLZhang/SLWaterflowLayout/blob/master/waterflow.gif)
 
-·
+
  let layout = SLWaterflowLayout()
-        layout.columnsCount = kColumensCount
-        layout.columnMargin = kColumMargin
-        layout.rowMargin = kRowMargin
-        layout.delegate = self
+ layout.columnsCount = kColumensCount
+ layout.columnMargin = kColumMargin
+ layout.rowMargin = kRowMargin
+ layout.delegate = self        
+ collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: layout)
         
-        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: layout)
-        ·
